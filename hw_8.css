@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("fonts/subset-MyriadPro-Regular.eot");
+    src: url("fonts/subset-MyriadPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/subset-MyriadPro-Regular.woff2") format("woff2"),
+        url("fonts/subset-MyriadPro-Regular.woff") format("woff"),
+        url("fonts/subset-MyriadPro-Regular.ttf") format("truetype"),
+        url("fonts/subset-MyriadPro-Regular.svg#MyriadPro-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("subset-SourceSansPro-Regular.eot");
+    src: url("fonts/subset-SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("fonts/subset-SourceSansPro-Regular.woff2") format("woff2"),
+        url("fonts/subset-SourceSansPro-Regular.woff") format("woff"),
+        url("subset-SourceSansPro-Regular.ttf") format("truetype"),
+        url("subset-SourceSansPro-Regular.svg#SourceSansPro-Regular") format("svg");
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Myriad Pro", sans-serif;
+    background-color: white;
+    margin: 0;
+    font-weight: 400;
+}
+.header{
+    padding: 31px 162px 0px 141px;
+}
+.logo {
+    background-color: #5094f2;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 34px;
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 0.64px;
+    text-align: center;
+    transform: rotate(180deg);
+}    
+.prec {
+    font-size: 42px;
+    color: #000000;
+    letter-spacing: 0.42px;
+    margin-left: 15px;
+}
+.dop {
+    display: inline-block;
+    vertical-align: center;
+}    
+.wrap{
+    float: left;
+}
+.nav {
+    float: right;
+}
+.nav_HPSC {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 36px;
+    font-size: 20px;
+    padding-top: 37px;
+}
+.link {
+    color: #b5b5b5;
+    text-decoration: none;
+}
+.link_H {
+    color: #b5b5b5;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+.clearfix {
+    clear: both;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
