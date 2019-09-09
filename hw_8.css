@@ -79,6 +79,41 @@ body {
 .clearfix {
     clear: both;
 }
+.fon {
+    background-image: url("images/dsfsdfsdfds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 16px;
+}
+.image {
+    background-image: url("images/iphone.png");
+    background-repeat: no-repeat;
+    width: 345px;
+    height: 436px;
+    margin: 38px 0px 16px 143px;
+}
+.text {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 45px;
+    width: 392px;
+    height: 436px;
+    margin: 38px 70px 0px 104px;
+}
+.lor {
+    font-size: 42px;
+}
+.rew {
+    display: inline-block;
+    vertical-align: top;
+}
+.bt {
+    width: 172px;
+    height: 41px;
+    background: #5094f2;
+    font-size: 22px;
+    color: #f8fbfe;
+}
 .container {
     max-width: 1000px;
     margin: 0 auto;
