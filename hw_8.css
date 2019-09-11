@@ -79,18 +79,18 @@ body {
 .clearfix {
     clear: both;
 }
-.fon {
+.main {
     background-image: url("images/dsfsdfsdfds.png");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 16px;
+    height: 500px;
 }
 .image {
     background-image: url("images/iphone.png");
     background-repeat: no-repeat;
     width: 345px;
     height: 436px;
-    margin: 38px 0px 16px 143px;
+    margin: 38px 0px 16px 36px;
 }
 .text {
     color: #ffffff;
@@ -114,7 +114,35 @@ body {
     font-size: 22px;
     color: #f8fbfe;
 }
+.card{
+    width: 248px;
+    text-align: center;
+    margin: 73px 0px 0px 36px;
+}
+.card_ikon {
+    background-color: #5094f2;
+    width: 186px;
+    height: 186px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-image: url("images/Shape_3.png"); 
+    background-size: 78px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card_title {
+    color: #74aaf5;
+    font-size: 20px;
+    line-height: 45px;
+    margin-top: 28px 0px 0px 0px;
+}
+.card_text {
+    color: #909090;
+    font-size: 14px;
+    margin-top: 8px 0px 0px 0px;
+}
 .container {
-    max-width: 1000px;
+    max-width: 971px;
     margin: 0 auto;
 }
+
