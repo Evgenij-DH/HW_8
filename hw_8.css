@@ -79,18 +79,17 @@ body {
 .clearfix {
     clear: both;
 }
-.main {
+.fon_main {
     background-image: url("images/dsfsdfsdfds.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
 }
 .image {
     background-image: url("images/iphone.png");
     background-repeat: no-repeat;
     width: 345px;
     height: 436px;
-    margin: 38px 0px 16px 36px;
+    margin: 38px 0px 0px 36px;
 }
 .text {
     color: #ffffff;
@@ -98,10 +97,17 @@ body {
     line-height: 45px;
     width: 392px;
     height: 436px;
-    margin: 38px 70px 0px 104px;
+    margin: 0px 0px 0px 104px;
 }
 .lor {
     font-size: 42px;
+    margin: 153px 0px 0px 0px;
+}
+.dum {
+    margin: 0 auto;
+}
+.prin {
+    margin: 0 auto;
 }
 .rew {
     display: inline-block;
@@ -113,11 +119,12 @@ body {
     background: #5094f2;
     font-size: 22px;
     color: #f8fbfe;
+    margin: 0 auto;
 }
 .card{
     width: 248px;
     text-align: center;
-    margin: 57px 0px 0px 36px;
+    margin: 57px 0px 0px 0px;
     display: inline-block;
     vertical-align: top;
 }
@@ -154,13 +161,52 @@ body {
     background-size: 98px;
 }
 .card_o {
-    margin-right: 60px;
+    margin-right: 116px;
 }
 .card__th {
     margin-right: 0px;
 }
 .card__t {
-    margin-right: 30px;
+    margin-right: 103px;
+}
+.shop {
+    color: #7d7f81;
+    font-size: 42px;
+    margin-left: 25px;
+    margin-top: 94px;
+    margin-bottom: 0px;
+}
+.foto {
+    background-image: url("images/cart.png");
+    background-repeat: no-repeat;
+    width: 371px;
+    height: 279px;
+    margin-left: 18px;
+}
+.bullet {
+    color: #818385;
+    font-size: 26px;
+    margin: 16px 0px 0px 467px;
+}
+.lorem {
+    color: #bbbbbb;
+    font-size: 15px;
+    line-height: 36px;
+    margin-left: 82px;
+}
+.basket {
+    display: inline-block;
+    vertical-align: top;
+}
+.footer {
+    background-color: #ffffff;
+    border-top: 2px solid #f9f9f9;
+    padding: 34px 0px 45px 0px;
+}
+.copyr {
+    color: #a6a6a6;
+    font-size: 15px;
+    margin-left: 278px;
 }
 .container {
     max-width: 971px;
