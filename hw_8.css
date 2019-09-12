@@ -117,7 +117,9 @@ body {
 .card{
     width: 248px;
     text-align: center;
-    margin: 73px 0px 0px 36px;
+    margin: 57px 0px 0px 36px;
+    display: inline-block;
+    vertical-align: top;
 }
 .card_ikon {
     background-color: #5094f2;
@@ -128,7 +130,7 @@ body {
     background-image: url("images/Shape_3.png"); 
     background-size: 78px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; 
 }
 .card_title {
     color: #74aaf5;
@@ -140,6 +142,25 @@ body {
     color: #909090;
     font-size: 14px;
     margin-top: 8px 0px 0px 0px;
+}
+.card_two {
+    background-color: #d94748;
+    background-image: url("images/Shape_6.png");
+    background-size: 95px;
+}
+.card_three {
+    background-color: #ebbb11;
+    background-image: url("images/Shape_5.png");
+    background-size: 98px;
+}
+.card_o {
+    margin-right: 60px;
+}
+.card__th {
+    margin-right: 0px;
+}
+.card__t {
+    margin-right: 30px;
 }
 .container {
     max-width: 971px;
