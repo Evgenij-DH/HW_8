@@ -30,7 +30,7 @@ body {
     font-weight: 400;
 }
 .header{
-    padding: 31px 162px 0px 141px;
+    padding: 0px 162px 0px 141px;
 }
 .logo {
     background-color: #5094f2;
@@ -38,10 +38,10 @@ body {
     height: 44px;
     border-radius: 50%;
     color: #ffffff;
+    text-align: center;
     font-size: 34px;
     font-family: "Source Sans Pro", sans-serif;
     letter-spacing: 0.64px;
-    text-align: center;
     transform: rotate(180deg);
 }    
 .prec {
@@ -49,6 +49,7 @@ body {
     color: #000000;
     letter-spacing: 0.42px;
     margin-left: 15px;
+    margin-bottom: 27px;
 }
 .dop {
     display: inline-block;
@@ -79,7 +80,7 @@ body {
 .clearfix {
     clear: both;
 }
-.fon_main {
+.fon {
     background-image: url("images/dsfsdfsdfds.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,13 +114,18 @@ body {
     display: inline-block;
     vertical-align: top;
 }
-.bt {
+.up {
+    background-color: #5094f2;
     width: 172px;
-    height: 41px;
-    background: #5094f2;
     font-size: 22px;
-    color: #f8fbfe;
-    margin: 0 auto;
+    border-radius: 2px;
+    margin-left: 12px;
+    margin-top: 36px;
+}
+div.up::before{
+    content: url("images/Shape_2.png");
+    margin-left: 11px;
+    margin-right: 10px;
 }
 .card{
     width: 248px;
@@ -206,7 +212,7 @@ body {
 .copyr {
     color: #a6a6a6;
     font-size: 15px;
-    margin-left: 278px;
+    text-align: center;
 }
 .container {
     max-width: 971px;
